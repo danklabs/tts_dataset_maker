@@ -12,11 +12,13 @@
     "lint": "echo \"No linting configured\""
   },
   "keywords": [],
-  "author": "retr0",
+  "author": "danklabs",
   "license": "MIT",
   "config": {
     "forge": {
-      "packagerConfig": {},
+      "packagerConfig": {
+        "icon": "src/icon.icns"
+      },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
