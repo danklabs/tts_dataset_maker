@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>TDM</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" href="index.css">
+    
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <script src="https://unpkg.com/wavesurfer.js/dist/plugin/wavesurfer.regions.min.js"></script>
+    <script src="https://unpkg.com/wavesurfer.js/dist/plugin/wavesurfer.timeline.js"></script>
+    <script defer src="render.js"></script>
+  </head>
+  <body>
+    <nav class="level">
+      <p class="level-item has-text-centered">
+        <img src="./logo.png" alt="" style="height: 90px;">
+        <!-- <a class="link is-info">TDM</a> -->
+      </p>
+    </nav>
+
+
+    
+    
+    <div class="notification is-danger" id ="error">
+      <button class="delete" id="del"></button>
+      <span id="content">
+     
+    </span>
+    </div>
+
+  
+
+    <div class="selectionPage has-text-centered container" id="selectPage">
+      
+      <div class="field has-addons columns is-centered addMargin" id="nameInputSection">
+        <div class="control">
+          <input class="input" type="text" placeholder="Use a unique project name" id="ProjInput">
+        </div>
+        <div class="control">
+          <a class="button is-info" id="projectNameBtn">
+            Go!
+          </a>
+        </div>
+      </div>
+
+      <div id ="folderSelection" class="columns is-centered addMargin">
+      <div class="level-left" id="selectFolder" >
+        <button id="selectFolderBtn" class="button is-dark is-large" >Select Folder</button>
+        <div class="box" id="folderLink"></div>
+      </div>
+      <div class="level-left" id="selectDestFolder">
+        <button id="selectDestFolderBtn" class="button is-dark is-large" disabled>Select Destination Folder</button>
+        <div class="box" id="destFolderLink"></div>
+      </div>
+    </div>
+
+      <button id="proceedBtn" type="submit" class="button is-primary">Continue</button>
+    </div>
+
+    <div id="mainPage">
+      <button class="button" id="prev" disabled>prev</button>
+      <button class="button" id="next">next</button>
+      <br />
+      <div id="waveform"></div>
+      <br />
+      
+      <button id="playPauseBtn" class="button orangeBtn">Play</button>
+      <button id="loopBtn" class="button orangeBtn">Play selected area</button>
+      <br />
+      <br />
+      <textarea class="textarea" placeholder="Enter the transcribed text" id="tts"></textarea>
+      <br />
+      <button id="useClipBtn" class="button orangeBtn">Use selected area</button>
+      <br />
+  </div>
+  <br />
+  <div id="listbox">
+    <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+      <thead>
+        <tr>
+          <th>File name</th>
+          <th>Text</th>
+        </tr>
+      </thead>
+      <tbody id="tableBod">
+       
+
+      </tbody>
+    </table>
+    <br />
+    <div class="has-text-centered">
+      <button id="finishBtn" class="button orangeBtn ">Finish!</button>
+    </div>
+  </div>
+ 
+  
+  </body>
+</html>

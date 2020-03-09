@@ -1,0 +1,46 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: auto;
+  /* max-width: 38rem; */
+  width: 1850px;
+  height: 1920px;
+  ;
+  padding: 2rem;
+  background-color:  #2e2c2b;
+  
+  /* background-image: url('logo.png'); */
+}
+#mainPage{
+  display: none;
+}
+#error{
+  display: none;
+}
+#folderLink{
+  display: none;
+}
+#destFolderLink{
+  display:none;
+}
+#proceedBtn{
+  display:none;
+  background-color: #ff914d; 
+}
+#folderSelection{
+  display: none;
+  
+}
+#listbox{
+  display: none;
+}
+#nameInputSection{
+  margin: 35px;
+}
+.addMargin{
+  margin: 20px;
+  padding: 2rem;
+}
+.orangeBtn{
+  background-color: #ff914d;
+  
+}
