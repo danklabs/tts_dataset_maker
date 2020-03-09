@@ -16,6 +16,7 @@ Destination folder:
 Pr's are welcome
 
 Todo:
+* Fix the spacebar bug
 * Add a feature to play the clips in slow-mo.
 * Better docs
 * Add icon to the application
