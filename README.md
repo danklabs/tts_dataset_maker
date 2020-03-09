@@ -5,6 +5,14 @@ Install the application in your computer. You can find it in the releases sectio
 
 [Tutorial](https://www.google.com)
 
+The dataset folder will look like(Similar to LJ speech dataset):<br />
+```
+Destination folder:
+  -wavs   <===== folder containing the clips
+  -metadata.csv <===== csv file containing the clip name and corresponding text
+  ```
+
+
 Pr's are welcome
 
 Todo:
@@ -14,3 +22,6 @@ Todo:
 * Add pocketshinx.js as an assist tool 
 
 Send me your queries @ danklabs2020@gmail.com
+
+ScreenShots:<br />
+![img](https://i.ibb.co/yFWsSMr/Screenshot-from-2020-03-09-11-09-32.png)
