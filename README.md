@@ -1,4 +1,4 @@
-# tts_dataset_maker
+# TDM
 A gui to help make a text to speech dataset.
 
 Install the application in your computer. You can find it in the releases section.
