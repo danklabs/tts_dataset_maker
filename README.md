@@ -3,7 +3,7 @@ A gui to help make a text to speech dataset.
 
 Install the application in your computer. You can find it in the releases section.
 
-[Tutorial](https://www.google.com)
+[Tutorial](https://danklabs.tech/blog/a-gui-to-make-text-to-speech-datasetstdm/)
 
 The dataset folder will look like(Similar to LJ speech dataset):<br />
 ```
