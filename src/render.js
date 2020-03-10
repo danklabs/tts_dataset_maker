@@ -239,7 +239,7 @@ wavesurfer.on('ready', function () {
 
 var Btn = document.getElementById("playPauseBtn");
 
-document.onkeydown = function (e) {
+Btn.onkeydown = function (e) {
     if (e.keyCode == 32) {
         Btn.click();
     }
