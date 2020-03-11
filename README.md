@@ -1,6 +1,8 @@
 # TDM
 A gui to help make a text to speech dataset.
 
+## [Download](https://github.com/danklabs/tts_dataset_maker/releases)
+
 Install the application in your computer. You can find it in the releases section.
 
 [Tutorial](https://danklabs.tech/blog/a-gui-to-make-text-to-speech-datasetstdm/)
