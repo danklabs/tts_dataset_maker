@@ -1,5 +1,13 @@
-# TDM
-A gui to help make a text to speech dataset.
+<img src="https://i.imgur.com/7RjnQJUm.png" title="TTS Dataset Maker" alt="TDM">
+
+# TTS Dataset Maker
+**Make your own text to speech dataset with this tool.
+Why should you make one? To replicate people's voices kinda like this and much more.**
+<br/>
+**Fair Warning: It's way harder than you think and this will make it a little less harder**
+
+Here is a sentdex video about voice cloning.
+
 
 ## [Download](https://github.com/danklabs/tts_dataset_maker/releases)
 
