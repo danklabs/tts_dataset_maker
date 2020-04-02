@@ -6,8 +6,11 @@ Why should you make one? To replicate people's voices kinda like [this](https://
 <br/>
 **Fair Warning: It's way harder than you think and this will make it a little less harder**
 
-Here is a sentdex [video](https://youtu.be/6bFN2YkN6bo) about voice cloning.
+##### Resources(More to come):
+* Here is a sentdex [video](https://youtu.be/6bFN2YkN6bo) about voice cloning.
 
+ScreenShots:<br />
+![img](https://i.ibb.co/yFWsSMr/Screenshot-from-2020-03-09-11-09-32.png)
 
 ## [Download](https://github.com/danklabs/tts_dataset_maker/releases)
 
@@ -23,9 +26,9 @@ Destination folder:
   ```
 
 
-Pr's are welcome
+###### Pr's are welcome
 
-Todo:
+###### Todo:
 * Fix the spacebar bug
 * Add a feature to play the clips in slow-mo.
 * Better docs
@@ -34,5 +37,3 @@ Todo:
 
 Send me your queries @ danklabs2020@gmail.com
 
-ScreenShots:<br />
-![img](https://i.ibb.co/yFWsSMr/Screenshot-from-2020-03-09-11-09-32.png)
