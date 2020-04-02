@@ -2,11 +2,11 @@
 
 # TTS Dataset Maker
 **Make your own text to speech dataset with this tool.
-Why should you make one? To replicate people's voices kinda like this and much more.**
+Why should you make one? To replicate people's voices kinda like [this](https://www.youtube.com/watch?v=DWK_iYBl8cA&t=19s) and much more.**
 <br/>
 **Fair Warning: It's way harder than you think and this will make it a little less harder**
 
-Here is a sentdex video about voice cloning.
+Here is a sentdex [video](https://youtu.be/6bFN2YkN6bo) about voice cloning.
 
 
 ## [Download](https://github.com/danklabs/tts_dataset_maker/releases)
