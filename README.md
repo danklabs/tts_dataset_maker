@@ -29,11 +29,22 @@ Destination folder:
 ###### Pr's are welcome
 
 ###### Todo:
-* Fix the spacebar bug
-* Add a feature to play the clips in slow-mo.
-* Better docs
-* Add icon to the application
-* Add pocketshinx.js as an assist tool 
+To Do:
+
+I/O:
+
+- [ ]  Better Responsive UI.
+- [ ]  Add some way to begin from where it was left off.
+- [ ]  Add timeline to wavesurfer.
+- [ ]  Add keyboard shortcuts for the activities.
+- [ ]  Add yt and audio link support.
+- [ ]  Better Readme
+
+Core additional features:
+
+- [ ]  Add slow mo option for playback.
+- [ ]  Remove silent parts from the clip.
 
 Send me your queries @ danklabs2020@gmail.com
+
 
